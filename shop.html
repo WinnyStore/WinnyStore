@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Winny Shop</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="assets/css/29v6nfve23523y.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+
+    <nav>
+        <div class="logo-nav">
+            <a href="?page=home">
+                <img src="https://img2.pic.in.th/pic/logofa984ef83df8c4a3.png" alt="Winny Store Logo">
+            </a>
+        </div>
+        <ul>
+            <li><a href="?page=home"><i class="fas fa-home" aria-label="Home"></i> หน้าหลัก</a></li>
+            <li><a href="?page=topup"><i class="fas fa-coins" aria-label="Top Up"></i> เติมเงิน</a></li>
+            <li><a href="?page=shop"><i class="fas fa-shopping-cart" aria-label="Shop"></i> ร้านค้า</a></li>
+            <li><a href="?page=contact"><i class="fas fa-phone" aria-label="Contact"></i> ติดต่อ</a></li>
+        </ul>
+        <ul class="Profile" style="display: none;">
+            <div class="dropdown">
+                <button type="button" class="dropdown-profile" onclick="toggleDropdown()">
+                    <i class="fa-solid fa-user-circle"></i> username    
+                </button>
+                <div id="dropdown-content" class="dropdown-content">
+                    <div class="Points"><i class="fas fa-coins" aria-label="Points"></i> Point : 0</div>
+                    <a href="?page=editprofile">แก้ไขโปรไฟล์</a>
+                    <a href="?page=orders">Order ของคุณ</a>
+                    <a href="?page=history">ประวัติการซื้อทั้งหมด</a>
+                    <a href="?page=logout">ออกจากระบบ</a>
+                </div>
+            </div>
+        </ul>        
+        <div class="login-signup">
+            <button id="loginBtn"><i class="fas fa-sign-in-alt" aria-label="Login"></i> เข้าสู่ระบบ</button>
+            <button id="signupBtn"><i class="fas fa-user-plus" aria-label="Signup"></i> สมัครสมาชิก</button>
+        </div>
+    </nav>
+    
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
