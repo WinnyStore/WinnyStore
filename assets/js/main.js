@@ -118,6 +118,6 @@ window.addEventListener('load', () => {
 
     var homeBtn = document.getElementById('home');
     if (homeBtn) homeBtn.addEventListener('click', () => {
-        window.location.href = 'home.php';
+        window.location.href = 'home.html';
     });
 });
